@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.caixa {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 250px;
+    margin-left: 600px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem black;
+}
+
+.caixa .text-center {
+    text-align: center;
+}
+
+.caixa input,
+.caixa button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.caixa input {
+    border-bottom-color: #CCC;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+
+.caixa input:focus {
+    border-bottom-color: #5b11d1;
+}
+
+.caixa button {
+    background-color: #5b11d1;
+    color: #FFF;
+}
+
+.caixa button:hover {
+    background-color: #6f3ac5;
+    cursor: pointer;
+}
+
+.caixa button:active {
+    background-color: #5b11d1;
+}
+
+header a {
+    color: #666;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #000;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a:focus {
+    color: #5b11d1;
+}
+
+header a:active {
+    color: yellow;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}
+
+.todo {
+    list-style: none;
+    padding: 0;
+}
+
+.todo li {
+    padding: 10px;
+    border-bottom: #CCC 1px solid;
+}
+
+.todo li input {
+    width: initial;
+    margin-right: 10px;
+}
+
+.todo li.complete {
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.todo button {
+    width: initial;
+    color: #FFF;
+    background-color: #5b11d1;
+    float: right;
+    min-width: 30px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+}
